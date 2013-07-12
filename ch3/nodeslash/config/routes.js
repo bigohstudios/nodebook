@@ -1,7 +1,6 @@
 module.exports = function(app) {
   
-  app.get("/heartbeat", function(req,res) {
-    res.json({success: true, payload: {heartbeat: "alive", version: App.version}}) 
-  })
+  var HeartbeatController = App.require("app/controllers/heartbeatController")
+  app.get("/heartbeat", HeartbeatController.index) 
 
 }
