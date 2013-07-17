@@ -1,6 +1,6 @@
 {
   "name": "nodeslash",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A Node-based hack n' slash RPG",
   "main": "server.js",
   "scripts": {
