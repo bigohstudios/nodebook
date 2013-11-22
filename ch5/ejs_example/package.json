@@ -1,0 +1,15 @@
+{
+  "name": "ejs-example",
+  "version": "0.1.0",
+  "description": "An example using EJS for the views",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ethan Garofolo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.0.0",
+    "ejs": "latest"
+  }
+}
